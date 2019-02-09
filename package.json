@@ -1,8 +1,12 @@
 {
-  "name": "web4bch",
-  "namespace": "bitcoincash",
-  "version": "0.1.0",
+  "name": "web3bch",
+  "author": "",
+  "version": "0.20.7",
   "description": "Bitcoin Cash JavaScript API, middleware to talk to a bitcoin cash node over RPC",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.15.1"
+  },
   "main": "./index.js",
   "directories": {
     "lib": "./lib"
@@ -45,18 +49,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/simpleledger/web4bch.js.git"
+    "url": "https://github.com/Bitcoin-com/web3bch.git"
   },
-  "homepage": "https://github.com/simpleledger/web4bch.js",
+  "homepage": "https://github.com/Bitcoin-com/web3bch",
   "bugs": {
-    "url": "https://github.com/simpleledger/web4bch.js/issues"
+    "url": "https://github.com/Bitcoin-com/web3bch/issues"
   },
   "keywords": [
     "bitcoincash",
     "javascript",
     "API"
   ],
-  "author": "",
   "authors": [
     {
       "name": "SpendBCH",
@@ -68,6 +71,5 @@
       "email": "gabriel@bitcoin.com",
       "homepage": "https://developer.bitcoin.com"
     }
-  ],
-  "license": "LGPL-3.0"
+  ]
 }
